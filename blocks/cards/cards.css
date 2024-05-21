@@ -29,3 +29,55 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.ho-section h2 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 400;
+  padding-bottom: 35px;
+  margin: 0;
+}
+
+.cards.ho-card-large .cards-card-body h5 strong{
+  font-size: 18px;
+  line-height: 28px;
+  color: #090909;
+  font-weight: 600;
+}
+
+.ho-section .cards-card-body p {
+  font-size: 14px;
+}
+
+.ho-section .cards-card-body a {
+  color: #ed0600;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: none;
+    padding: 5px 40px 5px 0;
+    background: url('../../icons/link-arrow.png') no-repeat center right;
+}
+
+.cards.ho-card-large > ul{
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  grid-gap: 40px;
+}
+
+.cards.ho-card-large > ul li {
+    background: #fff;
+    box-shadow: 0 0 7px rgb(0 0 0 / 7%);
+    border-radius: .6rem;
+    padding: 20px 40px;
+    border: none;
+}
+
+.cards.ho-card-large > ul li:hover  {
+  filter: drop-shadow(0 4px 25px rgb(0 0 0 / 14%));
+}
+
+.cards.ho-card-large > ul li img {
+  aspect-ratio: unset;
+}
